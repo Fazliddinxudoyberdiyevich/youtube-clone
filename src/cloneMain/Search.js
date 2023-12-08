@@ -10,7 +10,7 @@ const Search = ({ onSubmit }) => {
      const onkeyPress = (event) => {
           if (event.key === "Enter") {
                onSubmit(searchTerm);
-          }
+          }//s
      }
 
      return (
